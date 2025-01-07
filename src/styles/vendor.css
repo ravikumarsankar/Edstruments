@@ -1,0 +1,57 @@
+.vendor-container{
+    width: 684px;
+    height:252px;
+   display: flex;
+   flex-direction: column;
+}
+.vendor-header{
+    display: flex;
+   width: 612px;
+   height: 32px;
+   font-size: 24px;
+   font-weight: 600;
+   gap:16px;
+}
+.vendor-info{
+    display: flex;
+    flex-direction: column;
+ width: 684px;
+ height:164px;
+ gap:32px;
+ padding-top: 25px;
+
+}
+.vendor-label{
+    font-size: 20px;
+    font-weight: 600;
+    color:#0D0F11;
+    height: 25px;
+}
+.vendor-field{
+    display: flex;
+    flex-direction: column;
+    height: 184px;
+
+}
+.vendor-fields{
+    display: flex;
+    width: 684px;
+    height: 40px;
+    border-radius: 8px;
+    border:1px solid  #64748B ;
+    margin-top: 10px;
+}
+.vendor-details{
+    display: flex;
+    height:16px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #1787e0;
+    padding: 20px;
+    cursor: pointer;
+}
+.asterisk{
+    color:red;
+    padding: 5px;
+}

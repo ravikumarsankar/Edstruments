@@ -1,0 +1,62 @@
+.invoice-container {
+  width: 1440px;
+  height: 64px;
+  margin: 10px;
+}
+.invoice-main{
+  display: flex;
+}
+
+.invoice-header-container{
+    display: flex;
+    width: 1440px;
+    height: 64px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.invoice-header{
+    height: 64px;
+    width: 706px;
+    display: flex;
+    align-items: center;
+  }
+.arrow-icon {
+  width: 24px;
+  height: 24px;
+}
+.header-label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0d0f11;
+  line-height: 28px;
+  padding: 10px;
+  font-style: heading;
+}
+.invoice-tab {
+  display: flex;
+  width: 660px;
+  height: 44px;
+}
+.tab-container {
+  display: flex;
+  width: 126px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.tab-container.active {
+  color: #1787e0;
+  border-bottom: 2px solid #1787e0;
+}
+.tab-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 114px;
+  height: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: "Inter", sans-serif;
+}
